@@ -3,7 +3,7 @@
     "name": "Recipe Saver Extension",
     "version": "1.0",
     "description": "An extension that saves found recipes to the companion recipe saving website.",
-    "homepage_url" : "https://github.com/ChristianMLand/recipeExtension",
+    "homepage_url": "https://github.com/ChristianMLand/recipeExtension",
     "icons": {
         "16": "icons/favicon.svg",
         "48": "icons/favicon.svg",
@@ -30,5 +30,10 @@
         "scripts": [
             "main.js"
         ]
+    },
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "recipeExtension@christianland.dev"
+        }
     }
 }
