@@ -10,15 +10,9 @@
         "96": "icons/favicon.svg",
         "128": "icons/favicon.svg"
     },
-    "permissions": [
-        "storage",
-        "webRequest",
-        "webRequestBlocking"
-    ],
     "optional_permissions": [
         "cookies",
-        "tabs",
-        "activeTab"
+        "tabs"
     ],
     "host_permissions": [
         "*://www.recipes.christianland.dev/*"
